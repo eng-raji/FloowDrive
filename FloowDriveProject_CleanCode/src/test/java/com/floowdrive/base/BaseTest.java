@@ -8,6 +8,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
+import org.testng.annotations.BeforeClass;
 
 import com.floowdrive.constants.Cons;
 import com.floowdrive.pageclasses.LandingPage;
