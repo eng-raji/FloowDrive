@@ -24,7 +24,7 @@ public class BaseTest  {
 	public AppiumDriver<WebElement> driver;
 	@BeforeClass
 	public void setupPOM() {
-		loginPage =new LoginPage(driver);
+		land =new LandingPage(driver);
 	}
 	@BeforeTest
 	public void setDevice() throws MalformedURLException {
